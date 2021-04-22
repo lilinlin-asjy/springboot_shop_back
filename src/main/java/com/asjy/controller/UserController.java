@@ -30,6 +30,7 @@ public class UserController {
 
     @RequestMapping("/getAllUser")
     public List<User> getAllUser(){
+         System.out.println("hello");
          return userService.getAllUser();
     }
 
