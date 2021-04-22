@@ -31,6 +31,7 @@ public class UserController {
     @RequestMapping("/getAllUser")
     public List<User> getAllUser(){
          System.out.println("hello");
+          System.out.println("hello111");
          return userService.getAllUser();
     }
 
